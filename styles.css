@@ -26,11 +26,11 @@ button {
     font-family: inherit;
 }
 
-button.about-me {
+button.sobre-mi {
     width: 12rem;
 }
 
-button.about-me .circle {
+button.sobre-mi .circulo {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: relative;
     display: block;
@@ -41,7 +41,7 @@ button.about-me .circle {
     border-radius: 1.625rem;
 }
 
-button.about-me .circle .icon {
+button.sobre-mi .circulo .icon {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: absolute;
     top: 0;
@@ -50,7 +50,7 @@ button.about-me .circle .icon {
     background: #fff;
 }
 
-button.about-me .circle .icon.arrow {
+button.sobre-mi .circulo .icon.arrow {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     left: 0.625rem;
     width: 1.125rem;
@@ -58,7 +58,7 @@ button.about-me .circle .icon.arrow {
     background: none;
 }
 
-button.about-me .circle .icon.arrow::before {
+button.sobre-mi .circulo .icon.arrow::before {
     position: absolute;
     content: "";
     top: -0.29rem;
@@ -70,7 +70,7 @@ button.about-me .circle .icon.arrow::before {
     transform: rotate(45deg);
 }
 
-button.about-me .button-text {
+button.sobre-mi .texto-del-boton {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: absolute;
     top: 0;
@@ -86,15 +86,15 @@ button.about-me .button-text {
     text-transform: uppercase;
 }
 
-button:hover .circle {
+button:hover .circulo {
     width: 100%;
 }
 
-button:hover .circle .icon.arrow {
+button:hover .circulo .icon.arrow {
     background: #ffffff;
     transform: translate(1rem, 0);
 }
 
-button:hover .button-text {
+button:hover .texto-del-boton {
     color: #fff;
 }
